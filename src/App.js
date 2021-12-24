@@ -39,6 +39,7 @@ function App() {
             <Route exact path='/postView/:no' component={PostView} />
             <Route exact path='/' component={PostMain} />
 	    </Switch> 
+      <div>추가추가</div>
 		<LyHeader />
 		<LyFooter />
     </div>
